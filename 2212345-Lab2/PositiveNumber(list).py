@@ -11,5 +11,5 @@ print(NewArr)
 result = [i for i in arr if i > 0]
 print(result)
 #cach3:filter()
-result = filter(lambda x : x > 0,arr)
-print(list(result))
+result2 = list(filter(lambda x : x > 0,arr))
+print(list(result2))
