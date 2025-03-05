@@ -16,4 +16,13 @@ for i in l:
     arr.append(total)
 print(arr)
 #cach4:List Comprehension
-result3 = []
+result3 = [sum(l[:i+1]) for i in range(len(l))]
+print(result3)
+#cach5:generator
+def Generator(l):
+    total = 0
+    for i in l:
+        total += i
+        yield total
+result4 = list(Generator(l))
+print(result4)
