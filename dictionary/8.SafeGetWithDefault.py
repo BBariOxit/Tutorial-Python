@@ -10,3 +10,9 @@ if k in d:
 else:
     val2 = "N/A"
 print(val2)
+# using try ... except  
+try:
+    val3 = d[k]
+except KeyError:
+    val3 = "N/A"
+print(val3)
