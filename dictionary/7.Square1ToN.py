@@ -3,3 +3,6 @@
 n = 10
 result = {i: i**2 for i in range(1,n +1)} 
 print(result)
+# using dict and zip
+result2 = dict(zip(range(1,n +1), (i**2 for i in range(1,n +1))))
+print(result2)
