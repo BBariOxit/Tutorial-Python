@@ -1,0 +1,13 @@
+# name = input("enter your full name:")
+name = "phan thai bao" 
+# result = len(name)
+# result = name.find('a')
+# result = name.rfind('a')
+# result = name.capitalize()
+# result = name.upper()
+# result = name.lower()
+# result = name.isdigit()
+# result = name.isalpha()
+# result = name.count(' ')
+result2 = name.replace(' ', '-')
+print(result2)
